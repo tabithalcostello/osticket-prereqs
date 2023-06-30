@@ -21,9 +21,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create a Virtual Machine 
 - Install & Enable Internet Information Services (IIS)
-- Download Installation Files
+- Download and Install Installation Files
 - Configure IIS
 - Configure the osTicket Installer
+- Download and Install HeidiSQL
 
 <h2>Installation Steps</h2>
 
@@ -44,7 +45,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p align="center">
 <img src="https://i.imgur.com/IWxHXqU.png" height="50%" width="50%" alt="Installation Files"/>
 </p>
-<p> Download PHP Manager for IIS, IIS URL Rewrite Module, and PHP zip File. Create a directory C:\PHP. Extract PHP zip file, and insert in C:\PHP. Download Microsoft C++ 2015-2022 Redistributable and MySQL Server 5.5. 
+<p> Download and install PHP Manager for IIS, IIS URL Rewrite Module, and PHP zip File. Create a directory C:\PHP. Extract PHP zip file, and insert in C:\PHP. Download and install Microsoft C++ 2015-2022 Redistributable and MySQL Server 5.5. 
 </p>
 <br />
 
@@ -65,7 +66,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p align="center">
 <img src="https://i.imgur.com/tVOW7mn.png" height="50%" width="50%" alt="osTicket"/>
 </p>
-<p> Download osTicket, Extract the "upload" folder and drop it into C:\inetpub\wwwroot. Rename the "upload" folder to "osTicket." Reload IIS, and Restart server (or Stop then Start server). 
+<p> Download and install osTicket, Extract the "upload" folder and drop it into C:\inetpub\wwwroot. Rename the "upload" folder to "osTicket." Reload IIS, and Restart server (or Stop then Start server). 
 </p>
 <br />
 
@@ -107,49 +108,53 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p align="center">
-<img src="" height="50%" width="50%" alt=""/>
+<img src="https://i.imgur.com/fJqc7qe.png" height="50%" width="50%" alt=""/>
 </p>
-<p> Return to the osTicket Installer in the web browser. Add Name, Default E-mail, 
-
-</p>
-<br />
-
-<p align="center">
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Description
+<p align="center"> Return to the osTicket Installer in the web browser. Fill in the blanks, but stop at the Data Settings. 
 </p>
 <br />
 
 <p align="center">
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NI8VRRi.png" height="50%" width="50%" alt="HeidiSQL"/>
 </p>
-<p>
-Description
-</p>
-<br />
-
-<p align="center">
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Description
+<p align="center"> Download and install HeidiSQL. Launch HeidiSQL. Click New. The username "Root" had already been selected. Insert Password. Click Open.
 </p>
 <br />
 
 <p align="center">
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bPGVgEr.png" height="50%" width="50%" alt="Database"/>
 </p>
-<p>
-Description
+<p align="center"> (In HeidiSQL) Under "Unnamed," create a new Database called osTicket. 
 </p>
 <br />
 
 <p align="center">
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cy3dEv3.png" height="50%" width="50%" alt="Finish osTicket Installer"/>
 </p>
-<p>
-Description
+<p align="center"> Return to the osTicket Installer to the Data Settings section. Insert database name "osTicket." Insert username "root." Insert password. Click Install Now. 
 </p>
 <br />
+
+<p align="center">
+<img src="https://i.imgur.com/L23FWoQ.png" height="50%" width="50%" alt="Verify Setup"/>
+</p>
+<p align="center"> If installed correctly, the above image will appear in the web browser. 
+</p>
+<br />
+
+<p align="center">
+<img src="https://i.imgur.com/OVVVtdx.png" height="50%" width="50%" alt="Agent's Page"/>
+</p>
+<p> Typing in the following link: http://localhost/osTicket/scp/login.php will grant agents access to the osTicket. 
+</p>
+<br /> 
+
+<p align="center">
+<img src="https://i.imgur.com/U8VPRJw.png" height="50%" width="50%" alt="Agent's Page"/>
+</p>
+<p> Typing in the following link: http://localhost/osTicket/ will grant users access to the osTicket. 
+</p>
+<br /> 
+
+
+
