@@ -153,13 +153,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p align="center">
 <img src="https://i.imgur.com/OVVVtdx.png" height="50%" width="50%" alt="Agent's Page"/>
 </p>
-<p align="center"> Typing in the following link: <a href="http://localhost/osTicket/scp/login.php"> http://localhost/osTicket/scp/login.php </a> will grant agents access to the osTicket. 
+<p align="center"> Going to the following link "http://localhost/osTicket/scp/login.php" will grant agents access to the osTicket. 
 </p>
 <br /> 
 
 <p align="center">
 <img src="https://i.imgur.com/U8VPRJw.png" height="50%" width="50%" alt="Agent's Page"/>
 </p>
-<p align="center"> Typing in the following link: <a href="http://localhost/osTicket/"> http://localhost/osTicket/ </a> will grant users access to the osTicket. 
+<p align="center"> Going to the following link "http://localhost/osTicket/" will grant users access to the osTicket. 
 </p>
 <br /> 
