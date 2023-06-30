@@ -158,16 +158,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br /> 
 
 <p align="center">
-<img src="https://i.imgur.com/ubUCd3K.png" height="50%" width="50%" alt="Conclude"/>
-</p>
-<p> This concludes the tutorial. The next one will build onto this with post configuring the osTicket. 
-</p>
-<br />
-
-
-<p align="center">
 <img src="https://i.imgur.com/U8VPRJw.png" height="50%" width="50%" alt="Agent's Page"/>
 </p>
 <p align="center"> Going to the following link "http://localhost/osTicket/" will grant users access to the osTicket. 
 </p>
 <br /> 
+
+<p align="center">
+<img src="https://i.imgur.com/ubUCd3K.png" height="50%" width="50%" alt="Conclude"/>
+</p>
+<p align="center"> This concludes the tutorial. The next one will build onto this one with post configuring the osTicket. 
+</p>
+<br />
+
