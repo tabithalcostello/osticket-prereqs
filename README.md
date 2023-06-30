@@ -25,6 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Configure IIS
 - Configure the osTicket Installer
 - Download and Install HeidiSQL
+- Launch Agent's and User's link to osTicket
 
 <h2>Installation Steps</h2>
 
@@ -97,7 +98,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p align="center">
 <img src="https://i.imgur.com/bkrPDPy.png" height="50%" width="50%" alt="Rename"/>
 </p>
-<p> Access the osTicket folder's subfolder: Include. Select "ost-sampleconfig.php" and rename it "ost-config.php." 
+<p> Access the osTicket's subfolder: Include. Select "ost-sampleconfig.php" and rename it "ost-config.php." 
 <br />
 
 <p align="center">
@@ -143,18 +144,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p align="center">
+<img src="https://i.imgur.com/Tg25Iih.png" height="50%" width="50%" alt="Clean Up"/>
+</p>
+<p> Access the osTicket's subfolder "Setup" and delete it. Return to the Include folder. Go to "ost-config.php" Properties. In the Security section, change the principal "Everyone" permission to "Read Only."
+</p>
+<br /> 
+
+<p align="center">
 <img src="https://i.imgur.com/OVVVtdx.png" height="50%" width="50%" alt="Agent's Page"/>
 </p>
-<p> Typing in the following link: http://localhost/osTicket/scp/login.php will grant agents access to the osTicket. 
+<p align="center"> Typing in the following link: http://localhost/osTicket/scp/login.php will grant agents access to the osTicket. 
 </p>
 <br /> 
 
 <p align="center">
 <img src="https://i.imgur.com/U8VPRJw.png" height="50%" width="50%" alt="Agent's Page"/>
 </p>
-<p> Typing in the following link: http://localhost/osTicket/ will grant users access to the osTicket. 
+<p align="center"> Typing in the following link: http://localhost/osTicket/ will grant users access to the osTicket. 
 </p>
 <br /> 
-
-
-
