@@ -167,7 +167,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p align="center">
 <img src="https://i.imgur.com/ubUCd3K.png" height="50%" width="50%" alt="Conclude"/>
 </p>
-<p align="center"> This concludes the tutorial. The next one will build onto this one with post configuring the osTicket. 
+<p align="center"> This concludes the tutorial. The next one will build onto this one with Post-Installation Configuration. 
 </p>
 <br />
 
