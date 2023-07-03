@@ -67,7 +67,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p align="center">
 <img src="https://i.imgur.com/tVOW7mn.png" height="50%" width="50%" alt="osTicket"/>
 </p>
-<p> Download and install osTicket, Extract the "upload" folder and drop it into C:\inetpub\wwwroot. Rename the "upload" folder to "osTicket." Reload IIS, and Restart server (or Stop then Start server). 
+<p> Download and install osTicket, Extract the "upload" folder and drop it into C:\inetpub\wwwroot. Rename the "upload" folder to "osTicket." Reload IIS, and restart server (or Stop then Start server). 
 </p>
 <br />
 
@@ -82,7 +82,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p align="center">
 <img src="https://i.imgur.com/REogFsQ.png" height="50%" width="50%" alt="Initial osTicket Screen"/>
 </p>
-<p align="center"> If installed correctly, the osTicket Installer appears on a web page. 
+<p align="center"> If installed correctly, the osTicket Installer appears on a web page. Notice that not all the extensions are enabled.
 </p>
 <br />
 
@@ -90,7 +90,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p align="center">
 <img src="https://i.imgur.com/FhGQ4D4.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<p> In IIS, access the PHP Manager. Enable the following extensions: php_imap.dll, php_intl.dll, and php_opcache.dll. Restart IIS. Refresh the webpage. Notice the changes in the features. 
+<p> To enable extensions, go to IIS and access the PHP Manager. Enable the following extensions: php_imap.dll, php_intl.dll, and php_opcache.dll. Restart IIS. Refresh the webpage. Notice the changes in the features on the osTicket Installer.
 </p>
 <br />
 
